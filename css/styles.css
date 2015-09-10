@@ -1,0 +1,38 @@
+html, body, div, header, p {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	color: #ccccff;
+}
+body {
+	background-image: url(../img/shirt.jpg);
+}
+#banner {
+	width: 100%;
+	height:400px;
+	background-image: url(../img/justdoit.gif);
+	z-index: 2;
+}
+h1 {
+	text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.75);
+}
+input, button, select, option, textarea {
+    font-size: 100%;
+}
+#form-box {
+	background-color: #ccc;
+	padding: 30px;
+	width: 33%;
+	font-size: 1em;
+	box-shadow: 2px 0px 10px 5px rgba(119, 119, 119, 0.8);
+}
+#mask {
+	float: right;
+	display: inline-block;
+	z-index: 5;
+}
+.checked {
+	text-decoration: line-through;
+	color: #eee;
+}
